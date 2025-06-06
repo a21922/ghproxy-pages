@@ -17,7 +17,7 @@ function generate() {
       return;
     }
 
-    const proxyUrl = `https://ghproxy.edgeone.app/${url.href}`;
+    const proxyUrl = `https://ghcdn.edgeone.app/${url.href}`;
     resultDiv.innerHTML = `
       <p>✅ 加速链接：</p>
       <a href="${proxyUrl}" target="_blank">${proxyUrl}</a>
